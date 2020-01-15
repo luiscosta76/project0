@@ -2,4 +2,12 @@ body {
   background-color: #eff6f7;
   font-family: 'Montserrat', sans-serif; }
 
+.navbar ul {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: xx-large; }
+
+.navbar-nav li a {
+  color: #003333; }
+
 /*# sourceMappingURL=styles.css.map */

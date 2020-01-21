@@ -6,7 +6,12 @@ body {
 .navbar ul{
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: xx-large;
+    @media (max-width: 543px) {  
+        font-size: large;
+    }
+    @media (min-width: 544px) {  
+        font-size: xx-large;
+    }
 }
 
 .navbar-nav li a {

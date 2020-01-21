@@ -5,10 +5,10 @@ body {
 .navbar ul {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200; }
-  @media (max-width: 543px) {
+  @media (max-width: 640px) {
     .navbar ul {
       font-size: large; } }
-  @media (min-width: 544px) {
+  @media (min-width: 641px) {
     .navbar ul {
       font-size: xx-large; } }
 

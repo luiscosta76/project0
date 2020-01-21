@@ -6,10 +6,10 @@ body {
 .navbar ul{
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    @media (max-width: 543px) {  
+    @media (max-width: 640px) {  
         font-size: large;
     }
-    @media (min-width: 544px) {  
+    @media (min-width: 641px) {  
         font-size: xx-large;
     }
 }

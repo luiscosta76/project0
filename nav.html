@@ -1,12 +1,21 @@
-<div class="text-center">
+<!--<div class="text-center">
     <img src="images/header.jpg">
-</div>
+</div>-->
+<header id="img_header">
+  <picture>
+    <source media="(max-width: 576px)"
+            srcset="./images/header_small.jpg">
+    <source media="(min-width: 577px)"
+            srcset="./images/header.jpg">
+    <img src="./images/header.jpg">
+  </picture>
+</header>
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav justify-content-center">
         <li class="nav-item active">

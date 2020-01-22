@@ -1,6 +1,9 @@
 body {
     background-color: #eff6f7;
     font-family: 'Montserrat', sans-serif;
+    h5 {
+        font-weight: 600 !important;
+    }
 }
 
 .navbar ul{
@@ -32,4 +35,15 @@ body {
 .centerImage{
     text-align:center;
     display:block;
+}
+
+.btn-warning{
+    background-color: transparent;
+    border-color: #bdc3c7;
+  }
+
+#icons{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;  
 }

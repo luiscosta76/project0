@@ -13,8 +13,12 @@
       <div id="nav"></div>
       <script>
           $.get("nav.html", function(data){
-              $("#nav").replaceWith(data);
-          });            
+            $("#nav").replaceWith(data);
+          });    
+          $(document).ready(function(){
+            $(".nav-item").find(".active").removeClass("active");
+            $("#contact").addClass("active");
+          });        
       </script>      
       <div class="container">
         <div class="row">

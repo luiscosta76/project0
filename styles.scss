@@ -1,6 +1,10 @@
 $main-font: 'Montserrat', sans-serif;
 $primary-color: #eff6f7;
 
+%margins {
+    margin-left: 15px;
+    margin-right: 15px;    
+}
 body {
     background-color: $primary-color;
     font-family: $main-font;
@@ -24,8 +28,7 @@ body {
 }
 
 .navbar-nav li a {
-    margin-left: 15px;
-    margin-right: 15px;
+    @extend %margins;
     color: #003333;
 }
 

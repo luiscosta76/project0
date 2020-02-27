@@ -1,4 +1,4 @@
-For this project0 I chose to do a website for my former band "You can't win, Charlie Brown", who were looking for someone to build them a new website. So this will be the live website using once I transfer it to their server.
+For this project0 I chose to do a website for my former band "You can't win, Charlie Brown", who were looking for someone to build them a new website. This will be the live website using once it's transfered to their server.
 
 Here's a short description of the files:
 
